@@ -56,17 +56,19 @@ img {
 }
 .feature1 {
     grid-area: feature1;
+    font-size: 3em;
     background-image: url(img/cat1.jpg);
     background-size: cover;
 }
 .feature2 {
     grid-area: feature2;
+    font-size: 3em;
     background-image: url(img/cat2.jpg);
     background-size: cover;
 }
 .features.price {
     font-size: 3em;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 
@@ -172,7 +174,7 @@ img {
     font-size: 1.5em;
 }
 .service p {
-    font-weight: 200;
+    font-weight: 600;
     /* letter-spacing: 1px; */
     font-size: 0.8em;
 }
@@ -224,6 +226,12 @@ img {
         order: -1;
         justify-items: end;
     }
+    .feature1 {
+        font-size: .7em;
+    }
+    .feature2 {
+        font-size: .7em;
+    }
     .menu-toggle {
       display: flex;
     }
@@ -258,5 +266,11 @@ img {
             'hero'
             'feature1'
             'feature2';
+    }
+    .feature1 {
+        font-size: .7em;
+    }
+    .feature2 {
+        font-size: .7em;
     }
 }
